@@ -3,10 +3,6 @@ def using_push(array, string)
 end
 
 
-def using_shift(array)
-  array.shift
-
-
 def using_unshift(array, string)
   array.unshift(string)
 end
@@ -18,9 +14,18 @@ end
 
 
 def pop_with_args(array)
-  popped = [ ]
-  popped << array.pop
-  return popped
+  array.pop
+  array.pop
+end
+
+
+def using_shift(array)
+  array.shift
+end
+
+
+def shift_with_args()
+  
 end
 
 
