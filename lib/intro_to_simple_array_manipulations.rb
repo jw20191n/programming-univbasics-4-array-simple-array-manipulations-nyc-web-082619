@@ -15,8 +15,8 @@ end
 
 def pop_with_args(array)
   popped = [ ]
-  poppoed << array.pop
-  popped << array.pop
+  poppoed.push(array.pop)
+  popped.push(array.pop)
   popped
 end
 
@@ -27,7 +27,8 @@ end
 
 
 def shift_with_args(array)
-  
+  array.shift
+  array.shift
 end
 
 
