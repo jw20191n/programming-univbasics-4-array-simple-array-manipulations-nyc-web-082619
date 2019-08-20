@@ -14,8 +14,10 @@ end
 
 
 def pop_with_args(array)
-  array.pop
-  array.pop
+  popped = [ ]
+  poppoed << array.pop
+  popped << array.pop
+  
 end
 
 
