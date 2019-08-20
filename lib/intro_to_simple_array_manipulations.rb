@@ -15,3 +15,7 @@ def pop_with_args(array)
   popped.push = array.pop
   return popped
 end
+
+def using_concat(array1, array2)
+  
+end
