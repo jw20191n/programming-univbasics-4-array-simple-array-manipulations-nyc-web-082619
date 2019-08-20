@@ -15,8 +15,8 @@ end
 
 def pop_with_args(array)
   popped = [ ]
-  popped.push(array.pop)
-  popped.push(array.pop)
+  popped.unshift(array.pop)
+  popped.unshift(array.pop)
   popped
 end
 
