@@ -27,6 +27,8 @@ end
 
 
 def shift_with_args(array)
+  shifted = [ ]
+  shifted.unshift()
   array.shift
   array.shift
 end
